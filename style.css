@@ -6,7 +6,7 @@
 
 .hero{
     width: 1440px;
-    height: 500px;
+    height: 700px;
     position: relative;
     background-color: #FFC38B;
     
@@ -16,6 +16,7 @@
     background-color: gray;
     margin-left: 65px;
     margin-top: 40px;
+    margin-bottom: 40px;
     width: 1170px;
     height: 41px;
     display: flex;
@@ -58,15 +59,10 @@
 .feature .p1{
     font-size: 20px;
     font-weight: 400;
+    color: gray;
     text-align: center;
 }
 
-.feature .blocks{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    
-}
 
 .feature .blocks h3{
     font-size: 20px;
@@ -76,16 +72,30 @@
 .feature .blocks .p2{
     font-size: 16px;
     font-weight: 400;
+    color: gray;
+}
+
+
+.feature .blocks{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
 }
 
 .feature .blocks .block1{
     width: calc((100% - 50px) / 2);
     margin-bottom: 35px;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-
-
+.box{
+    margin-right: 25px;
+}
 
 
 
