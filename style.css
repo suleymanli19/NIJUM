@@ -6,13 +6,15 @@
 
 .hero{
     width: 1440px;
+    height: 500px;
     position: relative;
+    background-color: #FFC38B;
     
 }
 
 .header{
     background-color: gray;
-    margin-left: 65px;;
+    margin-left: 65px;
     margin-top: 40px;
     width: 1170px;
     height: 41px;
@@ -41,4 +43,52 @@
     color: white;
     height: 50%;
 }
+
+.feature{
+    width: 1170px;
+    margin-left: 65px;
+}
+
+.feature h2{
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.feature .p1{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.feature .blocks{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.feature .blocks h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.feature .blocks .p2{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.feature .blocks .block1{
+    width: calc((100% - 50px) / 2);
+    margin-bottom: 35px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
 
