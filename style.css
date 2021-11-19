@@ -157,8 +157,41 @@
 
 .flex{
     display: flex;
+}
+
+.work{
+    margin-top: 600px;
+    margin-left: 70px;
+}
+
+.work h2{
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+}
+
+.work p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.works{
+    display: flex;
+    justify-content: space-between;
+}
+
+.works .work1 .work1img{
+    background-image: url(/image/work1.png);
     
 }
+
+.works .work1 .work1h3{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
 
 
 
