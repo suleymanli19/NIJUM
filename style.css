@@ -8,6 +8,7 @@
     width: 1440px;
     height: 700px;
     position: relative;
+    
    
     
 }
@@ -52,6 +53,7 @@
 .feature{
     width: 1170px;
     margin-left: 65px;
+    padding-top: 120px;
 }
 
 .feature h2{
@@ -113,7 +115,7 @@
 .heading{
     margin-top: 200px;
     margin-left: 63px;
-    width: 448px;
+    width: 720px;
     height: 419px;
     
 }
@@ -146,7 +148,17 @@
 
 }
 
+.restangle{
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+}
 
+.flex{
+    display: flex;
+    
+}
 
 
 
