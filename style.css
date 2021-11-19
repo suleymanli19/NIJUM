@@ -8,21 +8,20 @@
     width: 1440px;
     height: 700px;
     position: relative;
-    background-color: #FFC38B;
+   
     
 }
 
 .header{
-    background-color: gray;
     margin-left: 65px;
     margin-top: 40px;
-    margin-bottom: 40px;
     width: 1170px;
     height: 41px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 .menu a{
     font-weight: 500;  
@@ -37,6 +36,11 @@
 
 .menu a:last-child{
     margin-right: 0;
+}
+.box .img{
+    width: 50%;
+    height: 50%;
+    margin-left: 30px;
 }
 
 .menu a:hover{
@@ -96,6 +100,52 @@
 .box{
     margin-right: 25px;
 }
+
+.restangleheading{
+    margin-top: 200px;
+    margin-left: 63px;
+    width: 448px;
+    height: 419px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    margin-top: 200px;
+    margin-left: 63px;
+    width: 448px;
+    height: 419px;
+    
+}
+
+.h1heading{
+    font-weight: 700;
+    font-size: 52px;
+}
+.downheading{
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.button{
+    color: white;
+    background-color: #FF926B;
+    width: 170px;
+    height: 44px;
+    
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+    background-color: #FF926B;
+    font-size: 18px;
+    padding-left: 45px;
+
+}
+
 
 
 
