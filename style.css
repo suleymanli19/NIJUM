@@ -159,7 +159,7 @@
     display: flex;
 }
 
-.work{
+/* .work{
     margin-top: 600px;
     margin-left: 70px;
 }
@@ -177,6 +177,7 @@
 }
 
 .works{
+    margin-left: 90px;
     display: flex;
     justify-content: space-between;
 }
@@ -189,8 +190,18 @@
 .works .work1 .work1h3{
     font-size: 28px;
     font-weight: 700;
+} */
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 500px;
+    margin-left: 100px;
 }
 
+.about1{
+    padding-right: 150px;
+}
 
 
 
